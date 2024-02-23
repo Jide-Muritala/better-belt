@@ -1,12 +1,12 @@
 ---
-title: 'My First Blog Post'
-pubDate: 2022-07-01
+title: 'Should I Learn Python or Java? A Comprehensive Guide to Navigating the Crossroad'
+pubDate: 2024-02-23
 description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+author: 'Jide Muritala'
 image:
     url: 'https://images.unsplash.com/photo-1568497632174-0082a20602c9'
     alt: 'crossroads in the forest'
-tags: ["astro", "blogging", "learning in public"]
+tags: ["Python", "Java", "programming"]
 ---
 # Should I Learn Python or Java? A Comprehensive Guide to Navigating the Crossroad
 
@@ -56,11 +56,11 @@ Java has a reputation for reliability and is a linchpin in the enterprise world.
 
 ### Python's Career Ascent: 
 
-Python's meteoric rise in popularity translates into a flourishing job market. It consistently secures top positions in the most sought-after programming languages, as evident in the TIOBE Index, where Python leads as of January 2024 (https://www.tiobe.com/tiobe-index/). The language's versatility opens doors to an array of job opportunities, spanning web development, data science, and artificial intelligence. Python developers are among the highest-paid professionals in the software engineering domain. The demand for Python skills continues to outpace supply, making it a lucrative career path for those venturing into the programming landscape. 
+Python's meteoric rise in popularity translates into a flourishing job market. It consistently secures top positions in the most sought-after programming languages, as evident in the [TIOBE Index](https://www.tiobe.com/tiobe-index/), where Python leads as of January 2024. The language's versatility opens doors to an array of job opportunities, spanning web development, data science, and artificial intelligence. Python developers are among the highest-paid professionals in the software engineering domain. The demand for Python skills continues to outpace supply, making it a lucrative career path for those venturing into the programming landscape. 
 
 ### Java's Endurance: 
 
-Java remains an enduring stalwart in the job market, particularly in enterprise-level development and Android app creation. It is consistently placed among the top five on the TIOBE Index, underscoring its continued relevance. The median annual salary for Java developers is commensurate with its standing and position as an equally lucrative career choice (https://www.devjobsscanner.com/blog/top-10-highest-paid-programming-languages/). 
+Java remains an enduring stalwart in the job market, particularly in enterprise-level development and Android app creation. It is consistently placed among the top five on the TIOBE Index, underscoring its continued relevance. The median annual salary for Java developers is commensurate with its standing and position as an equally [lucrative](https://www.devjobsscanner.com/blog/top-10-highest-paid-programming-languages/) career choice. 
 
 ## Community Support and Resources 
 
