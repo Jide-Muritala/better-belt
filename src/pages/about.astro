@@ -1,4 +1,6 @@
 ---
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 import './styles/global.css';
 
 const pageTitle = "About Me";
@@ -19,8 +21,6 @@ const goal = 3;
 const skillColor = "navy";
 const fontWeight = "bold";
 const textCase = "uppercase";
-
-import Navigation from '../components/Navigation.astro';
 ---
 
 <html lang="en">
@@ -71,5 +71,6 @@ import Navigation from '../components/Navigation.astro';
 
 			{goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
           </body>
+		  <Footer />
 	</body>
 </html>
