@@ -19,6 +19,8 @@ const goal = 3;
 const skillColor = "navy";
 const fontWeight = "bold";
 const textCase = "uppercase";
+
+import Navigation from '../components/Navigation.astro';
 ---
 
 <html lang="en">
@@ -42,9 +44,7 @@ const textCase = "uppercase";
 	</head>
 	<body>
 		<body>
-            <a href="/">Home</a>
-            <a href="/about/">About</a>
-            <a href="/blog/">Blog</a>
+            <Navigation />
 
             <h1>{pageTitle}</h1>
             <h2>... and my new Astro site!</h2>
