@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Should I Learn Python or Java? A Comprehensive Guide to Navigating the Crossroad'
 pubDate: 2024-02-23
 description: 'This is the first post of my new Astro blog.'
@@ -8,9 +9,6 @@ image:
     alt: 'crossroads in the forest'
 tags: ["Python", "Java", "programming"]
 ---
-# Should I Learn Python or Java? A Comprehensive Guide to Navigating the Crossroad
-
-Published on: 2024-02-23
 
 ## Introduction 
 

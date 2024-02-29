@@ -1,14 +1,14 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: Why Learning Python is Important
-author: Jide Muritala
+author: 'Jide Muritala'
 description: "After learning some Astro, I couldn't stop!"
 image:
-    url: "https://docs.astro.build/assets/arc.webp"
+    url: "https://www.udacity.com/blog/wp-content/uploads/2020/12/Python-Tutorial_Blog-scaled.jpeg"
     alt: "Thumbnail of Astro arcs."
 pubDate: 2024-02-23
 tags: ["astro", "blogging", "learning in public", "successes"]
 ---
-# Why Learning Python is Important 
 
 ## Introduction to Python 
 
