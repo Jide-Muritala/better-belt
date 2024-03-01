@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Should I Learn Python or Java? A Comprehensive Guide to Navigating the Crossroad'
 pubDate: 2024-02-23
-description: 'This is the first post of my new Astro blog.'
+description: 'How do you you make the best choice for your situation?'
 author: 'Jide Muritala'
 image:
     url: 'https://images.unsplash.com/photo-1568497632174-0082a20602c9'

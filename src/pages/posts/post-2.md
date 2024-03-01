@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Why Learning Python is Important
 author: 'Jide Muritala'
-description: "After learning some Astro, I couldn't stop!"
+description: "Python can be useful for you in almost any field"
 image:
     url: "https://www.udacity.com/blog/wp-content/uploads/2020/12/Python-Tutorial_Blog-scaled.jpeg"
     alt: "Thumbnail of Astro arcs."
