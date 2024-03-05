@@ -7,7 +7,7 @@ author: 'Jide Muritala'
 image:
     url: 'https://images.unsplash.com/photo-1568497632174-0082a20602c9'
     alt: 'crossroads in the forest'
-tags: ["Python", "Java", "programming"]
+tags: ["astro", "blogging", "learning in public"]
 ---
 
 ## Introduction 
