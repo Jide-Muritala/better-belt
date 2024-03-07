@@ -36,6 +36,18 @@
 			"dest": "_render"
 		},
 		{
+			"src": "^\\/posts\\/post-4\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/rss\\.xml\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/tags\\/?$",
+			"dest": "_render"
+		},
+		{
 			"src": "^\\/$",
 			"dest": "_render"
 		}
