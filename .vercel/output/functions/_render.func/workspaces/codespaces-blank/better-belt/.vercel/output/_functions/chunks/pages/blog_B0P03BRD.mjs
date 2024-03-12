@@ -1,6 +1,6 @@
 import { c as createAstro, d as createComponent, r as renderTemplate, m as maybeRenderHead, f as addAttribute, e as renderComponent } from '../astro_DmWF7RLx.mjs';
 import 'kleur/colors';
-import { $ as $$BaseLayout } from './about_Dp_RXEg_.mjs';
+import { $ as $$BaseLayout } from './about_CUNzzeOQ.mjs';
 import 'clsx';
 
 const $$Astro$1 = createAstro("https://better-belt.vercel.app/");
@@ -15,7 +15,7 @@ const $$Astro = createAstro("https://better-belt.vercel.app/");
 const $$Blog = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Blog;
-  const allPosts = await Astro2.glob(/* #__PURE__ */ Object.assign({"./posts/post-1.md": () => import('./post-1_DEDA88gE.mjs').then(n => n.p),"./posts/post-2.md": () => import('./post-2_CK6TXcDa.mjs'),"./posts/post-3.md": () => import('./post-3_B_4yJ99q.mjs'),"./posts/post-4.md": () => import('./post-4_Cih75CNn.mjs')}), () => "../pages/posts/*.md");
+  const allPosts = await Astro2.glob(/* #__PURE__ */ Object.assign({"./posts/post-1.md": () => import('./post-1_CQx47jEc.mjs').then(n => n.p),"./posts/post-2.md": () => import('./post-2_B1H42R9S.mjs'),"./posts/post-3.md": () => import('./post-3_BvIR8IJD.mjs'),"./posts/post-4.md": () => import('./post-4_CnUPglZ-.mjs')}), () => "../pages/posts/*.md");
   const pageTitle = "Learn Programming Blog";
   return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "pageTitle": pageTitle }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<p>Here are my previous blog posts on learning programming.</p> <ul> ${allPosts.map((post) => renderTemplate`${renderComponent($$result2, "BlogPost", $$BlogPost, { "url": post.url, "title": post.frontmatter.title })}`)} </ul> ` })}`;
 }, "/workspaces/codespaces-blank/better-belt/src/pages/blog.astro", void 0);

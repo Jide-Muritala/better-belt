@@ -1,6 +1,6 @@
 import { c as createAstro, d as createComponent, r as renderTemplate, e as renderComponent, m as maybeRenderHead, f as addAttribute, h as renderSlot, u as unescapeHTML } from '../astro_DmWF7RLx.mjs';
 import 'kleur/colors';
-import { $ as $$BaseLayout } from './about_Dp_RXEg_.mjs';
+import { $ as $$BaseLayout } from './about_CUNzzeOQ.mjs';
 /* empty css                           */
 
 const $$Astro = createAstro("https://better-belt.vercel.app/");
