@@ -7,7 +7,7 @@ image:
     url: "https://www.udacity.com/blog/wp-content/uploads/2020/12/Python-Tutorial_Blog-scaled.jpeg"
     alt: "Thumbnail of Astro arcs."
 pubDate: 2024-02-23
-tags: ["astro", "blogging", "learning in public", "successes"]
+tags: ["Python", "learning programming", "successes"]
 ---
 
 ## Introduction to Python 
