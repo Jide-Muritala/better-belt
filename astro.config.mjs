@@ -1,11 +1,10 @@
 import { defineConfig } from 'astro/config';
-import vercel from "@astrojs/vercel/serverless";
-import preact from "@astrojs/preact";
-
+import preact from '@astrojs/preact';
+import vercel from '@astrojs/vercel/static';
 
 export default defineConfig({
-  output: "server",
+  output: 'static',
   adapter: vercel(),
-  site: "https://better-belt.vercel.app/",
+  site: 'https://better-belt.vercel.app/',
   integrations: [preact()]
 });

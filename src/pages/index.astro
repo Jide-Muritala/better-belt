@@ -1,14 +1,21 @@
 ---
-// Import server-side functions
-import { get } from './_server.js';
-const { cookies } = await get(Astro.request);
-
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Greeting from '../components/Greeting';
 const pageTitle = "Home Page";
+const messages = ["Hola", "Hi", "Hello", "Hey there"];
 ---
+
 <BaseLayout pageTitle={pageTitle}>
   <h2>Welcome to Learn Programming Blog</h2>
-  <p>Your cookies: {JSON.stringify(cookies)}</p>
-  <Greeting client:load messages={["Hola", "Hi", "Hello", "Hey there"]} />
+  <p id="cookies">Loading cookies...</p>
+  <Greeting client:load messages={messages} />
+  
+  <script>
+    // Client-side script to read cookies
+    document.addEventListener('DOMContentLoaded', () => {
+      const cookieString = document.cookie;
+      const cookiesElement = document.getElementById('cookies');
+      cookiesElement.textContent = `Your cookies: ${cookieString}`;
+    });
+  </script>
 </BaseLayout>
