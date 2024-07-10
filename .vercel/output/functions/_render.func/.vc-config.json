@@ -1,6 +1,6 @@
 {
 	"runtime": "nodejs20.x",
-	"handler": "workspaces/codespaces-blank/better-belt/.vercel/output/_functions/entry.mjs",
+	"handler": "workspaces/better-belt/.vercel/output/_functions/entry.mjs",
 	"launcherType": "Nodejs",
 	"supportsResponseStreaming": true
 }
